@@ -65,35 +65,36 @@ public class Main {
                 System.out.println("out of bound number");
                 //4) Write a program that takes a numeric score as input and prints
                 //the corresponding letter grade using the following grading scale:
-
-                System.out.println("Please enter your grade in numeric score");
-                int grade = input.nextInt();
-
-                if (grade >= 90) {
-                    System.out.println("your grade is A");
-                } else if (grade >= 80) {
-                    System.out.println("your grade is B");
-                } else if (grade >= 70) {
-                    System.out.println("your grade is C");
-                } else if (grade >= 60) {
-                    System.out.println("your grade is D");
-                } else {
-                    System.out.println("your grade is F");
-
-                }
-
-                //5) Write a Java program that takes a person's age as input and
-                //categorizes them into one of three age categories: "Child,"
-                //"Teenager," or "Adult" using an if statement.
-                System.out.println("Please enter your age");
-                int age = input.nextInt();
-                if (age >= 20) {
-                    System.out.println("you are an adult");
-                } else if (age >= 13) {
-                    System.out.println("you are a teenager");
-                } else {
-                    System.out.println("you are a child");
-                }
         }
+
+        System.out.println("Please enter your grade in numeric score");
+        int grade = input.nextInt();
+
+        if (grade >= 90) {
+            System.out.println("your grade is A");
+        } else if (grade >= 80) {
+            System.out.println("your grade is B");
+        } else if (grade >= 70) {
+            System.out.println("your grade is C");
+        } else if (grade >= 60) {
+            System.out.println("your grade is D");
+        } else {
+            System.out.println("your grade is F");
+
+        }
+
+        //5) Write a Java program that takes a person's age as input and
+        //categorizes them into one of three age categories: "Child,"
+        //"Teenager," or "Adult" using an if statement.
+        System.out.println("Please enter your age");
+        int age = input.nextInt();
+        if (age >= 20) {
+            System.out.println("you are an adult");
+        } else if (age >= 13) {
+            System.out.println("you are a teenager");
+        } else {
+            System.out.println("you are a child");
+        }
+
     }
 }
