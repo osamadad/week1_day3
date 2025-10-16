@@ -83,6 +83,7 @@ public class Main {
 
         }
 
+
         //5) Write a Java program that takes a person's age as input and
         //categorizes them into one of three age categories: "Child,"
         //"Teenager," or "Adult" using an if statement.
